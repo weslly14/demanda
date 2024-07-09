@@ -1,0 +1,97 @@
+/* Paleta de cores*/
+
+*{
+font-size: 100%;
+font-family: Arial, Helvetica, sans-serif;
+}
+    
+:root{
+    --braNco: #ffffff;
+    --prEto: #000000;
+    --ciNza: #DBDBDB;
+    --ciAno: #65d9ff;
+    --azul1: #223140;
+    --azul2: #032B43;
+    --amaRelo: #f5c400;
+}
+    
+body{
+     width: 1024px;
+     margin: auto;
+}
+
+/* Cabeçalho */
+header{
+    background: var(--azul2);
+    padding: 20px 462px;
+}
+
+#logo{
+    width: 100px;
+}
+/* Fim cabeçalho */
+
+/* Main pagina inicial */
+main{
+    background: var(--ciNza);
+    padding: 20px;
+    font-size: 2em;
+    text-align: center;
+}
+
+#topicosPrincipais{
+    list-style-type: none;
+}
+
+.topicosSecundarios{
+    width: 60%;
+    padding: 20px;
+    margin: 10px auto;
+    border: 1px solid red;
+    background: var(--azul2);
+    border-radius: 100px;
+    border: 5px solid var(--azul2);
+}
+
+main a{ 
+    color: var(--braNco);
+    text-decoration: none;
+    padding: 10px;
+    /*background: var(--azul2);
+    border-radius: 100px;
+    border: 5px solid var(--azul2);*/
+}
+
+main a:hover{
+    color: var(--ciAno);
+}
+/* Fim main pagina inicial */
+
+/* Rodapé */
+footer{
+    background: var(--azul2);
+    padding: 20px;
+}
+#rodape{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+}
+.iconeRodape{
+    padding: 20px;
+    color: var(--braNco);
+}
+
+footer a{
+    color: var(--braNco);
+    text-decoration: none;
+}
+footer a:hover{
+    padding: 10px;
+    background: var(--braNco);
+    color: var(--azul2);
+    border: solid var(--braNco) 4px;
+    border-radius: 100px;
+}
+/* Fim rodapé */

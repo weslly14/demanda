@@ -1,0 +1,136 @@
+/* Paleta de cores*/
+
+*{
+font-size: 100%;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+:root{
+    --braNco: #ffffff;
+    --prEto: #000000;
+    --ciNza: #DBDBDB;
+    --ciAno: #65d9ff;
+    --azul1: #223140;
+    --azul2: #032B43;
+    --amaRelo: #f5c400;
+}
+
+body{
+    width: 1024px;
+    margin: auto;
+
+}
+ /* Cabeçalho */
+header{
+    background: var(--azul2);
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+#logo{
+    width: 100px;
+}
+
+#espacoLogo{
+    width: 787.2px;
+}
+
+.iconesEntrada{
+    width: 196px;
+    font-size: 2em;
+    line-height: 100px;
+    padding: 0px 25px;
+}
+
+header a{
+    color: var(--braNco);
+    text-decoration: none;
+}
+
+header a:hover{
+    padding: 10px;
+    background: var(--braNco);
+    color: var(--azul2);
+    border: solid var(--braNco) 12px;
+    border-radius: 100px;
+}
+
+#linkLogo{
+    background: none;
+    border: none;
+    padding: 0px;
+}
+
+/* Fim cabeçalho */
+
+/* Conteúdo*/
+main{
+    background: var(--ciNza);
+    padding: 20px;
+}
+
+.tituloConteudoTexto{
+    font-size: 3em;
+}
+
+.conteudoTexto{
+    font-size: 1.5em;
+}
+/* Fim conteúdo */
+
+/* Main Login */
+#formularioLogin{
+    margin: auto;
+    background: var(--azul2);
+    width: 400px;
+    height: 345px;
+    color: var(--braNco);
+    font-size: 1.5em;
+    text-align: center;
+    padding: 75px 20px 20px 20px;
+}
+
+#mainLogin{
+    height: 435px;
+}
+/* Fim Main Login */
+
+/* Main cadastro */
+#formularioCadastro{
+    margin: auto;
+    background: var(--azul2);
+    padding: 20px;
+    width: 200px;
+    color: var(--braNco);
+}
+/* Fim Main cadastro
+
+/* Rodapé */
+footer{
+    background: var(--azul2);
+    padding: 20px;
+}
+#rodape{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+}
+.iconeRodape{
+    padding: 20px;
+    color: var(--braNco);
+}
+
+footer a{
+    color: var(--braNco);
+    text-decoration: none;
+}
+footer a:hover{
+    padding: 10px;
+    background: var(--braNco);
+    color: var(--azul2);
+    border: solid var(--braNco) 4px;
+    border-radius: 100px;
+}
+/* Fim rodapé */
